@@ -11,6 +11,8 @@ Clark and Golder (2006) claim:
 
 Evaluate this claim using **using only histograms**.
 
+The R script `create-histogram.R` gets you started.
+
 ## The Hypothesis
 
 [Clark and Golder (2006)](http://mattgolder.com/files/research/cps2.pdf) write the following: 
