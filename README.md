@@ -33,7 +33,16 @@ write the following:
 
 ## The Data
 
-I have the following data (from the authors) to evaluate this claim:
+The data below (from the authors) contain measure of the key concepts.
+
+The numeric variable `average_magnitude` and its factor variant
+`electoral_system` measure permissiveness. Higher values indicate a more
+permissive electoral system. The numeric variable `eneg` and its factor
+variant `social_heterogeneity` measure social heterogeneity. Higher
+values indicate a more heterogeneous society.
+
+I included a comma-separated version of the data set as well, and I made
+a [codebook](https://pos5737.github.io/data/parties-codebook.html).
 
 ``` r
 # load packages
@@ -65,16 +74,12 @@ ggplot(cg_df, aes(x = enep)) +
 
 ![](README_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
 
-There is a comma-separated version as well. I made a
-[codebook](https://pos5737.github.io/data/parties-codebook.html) as
-well.
-
 ## The Histograms
 
 Create histograms (or variants, such as density plots) to evaluate Clark
-and Golder’s argument. Be creative, but try to **cleary show their key
-claim**: *Social heterogeneity increases the number of parties, but only
-when electoral institutions are sufficiently permissive.*
+and Golder’s argument. Be creative, but **cleary show their key claim**:
+*Social heterogeneity increases the number of parties, but only when
+electoral institutions are sufficiently permissive.*
 
 Feel free to use whatever software you like and manipulate the data in
 any way that’s helpful.
